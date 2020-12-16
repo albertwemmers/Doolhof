@@ -1,2 +1,2 @@
 # Doolhof
-Gemaakt door Joshua van Gelder en Albert Wemmers
+Gemaakt door Joshua van Gelder
