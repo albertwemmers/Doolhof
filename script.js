@@ -11,6 +11,16 @@ function borderboxes() {
         e = Math.floor(Math.random() * 9 + 1)
         document.getElementById('box' + e).style.borderBottomColor = 'cyan';
     }
+    for (f = 1; f <= 2; f++) {
+        e = Math.floor(Math.random() * 9 + 1)
+        document.getElementById('box' + e).style.boxShadow = '1px 0px 0px 0px';
+        e = Math.floor(Math.random() * 9 + 1)
+        document.getElementById('box' + e).style.boxShadow = '0px 1px 0px 0px';
+        e = Math.floor(Math.random() * 9 + 1)
+        document.getElementById('box' + e).style.boxShadow = '-1px 0px 0px 0px';
+        e = Math.floor(Math.random() * 9 + 1)
+        document.getElementById('box' + e).style.boxShadow = '0px -1px 0px 0px';
+    }
 }
 
 borderboxes();
