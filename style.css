@@ -25,39 +25,43 @@ body {
     position: relative;
 }
 
-#boxone {
+#box1 {
     grid-area: a;
-    border: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#boxtwo {
+#box2 {
     grid-area: b;
     border: 1px solid #000000;
+    border-bottom: none;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#boxthree {
+#box3 {
     grid-area: c;
-    border: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-right: 1px solid #000000;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#boxfour {
+#box4 {
     grid-area: d;
     border: 1px solid #000000;
+    border-right: none;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#boxfive {
+#box5 {
     grid-area: e;
     border: 1px solid #000000;
     display: flex;
@@ -65,33 +69,37 @@ body {
     justify-content: center;
 }
 
-#boxsix {
+#box6 {
     grid-area: f;
     border: 1px solid #000000;
+    border-left: none;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#boxseven {
+#box7 {
     grid-area: g;
-    border: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#boxeight {
+#box8 {
     grid-area: h;
     border: 1px solid #000000;
+    border-top: none;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#boxnine {
+#box9 {
     grid-area: i;
-    border: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
     display: flex;
     align-items: center;
     justify-content: center;
